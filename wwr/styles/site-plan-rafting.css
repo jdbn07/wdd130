@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --primary-color: #443742;
+    --secondary-color: #846C5B;
+    --accent1-color: #EDD9A3;
+    --accent2-color: #E2E8C0;
+
+    --heading-font: 'Open Sans', sans;
+    --paragraph-font: 'Open Sans', sans;
+
+    --nav-background-color: #EDD9A3;
+    --nav-link-color: #443742;
+    --nav-background-color: #EDD9A3;
+    --nav-hover-background-color: #443742;
+  }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+h1 {
+     color: var(--primary-color); /* I added this h1 because in the group above, the title will be green and I want this specific h1 in white */
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+.callout {
+    color: #ffffff;; /* I added here this function because I wanted my name in white */
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
