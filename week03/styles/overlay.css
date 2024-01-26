@@ -54,3 +54,15 @@ footer {
 	font-weight: 700;
 	font-style: italic;
 }
+/* Class Selector */
+.box {
+	margin: 1rem;
+	border: 1px solid rgba(0,0,0,1);
+	padding: 1rem;
+	background-color: #ddd;
+	color: #000;
+}
+aside {
+	width: 20em;
+	text-align: center;
+}
