@@ -33,8 +33,12 @@ p {
 }
 /* Header */
 header {
-    background-color: #eee;
-    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+	max-width: 2000px;
+    background-color: var(--accent1-color);
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 header img {
